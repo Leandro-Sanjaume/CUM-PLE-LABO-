@@ -1,0 +1,106 @@
+h2 {
+    letter-spacing: 0.1cm;
+    font-family: 'Roboto Condensed', sans-serif;
+    color:white;
+}
+p {
+  letter-spacing: 0.1cm;
+  font-family: 'Roboto Condensed', sans-serif;
+  color:white;
+  text-align: center;
+}
+body{
+    background-image: url(background.png);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.header {
+    padding: 15px;
+    text-align: center;
+    background-color: crimson;
+    font-size: 20psx;
+  }
+.fa {
+    font-size: 50px;
+    cursor: pointer;
+    user-select: none;
+  }
+  button {
+    cursor: pointer;
+    user-select: none;
+    border-radius: 8px;
+  }
+i {
+    color: white;
+    width: 1cm;
+  }
+#poo {
+    position: absolute;
+    letter-spacing: 0.1cm;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: crimson;
+    font-size: 0.5cm;
+    margin-left: 10%;
+    max-width: 20%;
+  }
+#sql {
+    position: absolute;  
+    letter-spacing: 0.1cm;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: crimson;
+    font-size: 0.5cm;
+    margin-left: 40%;
+    max-width: 20%;
+}
+#html {
+    position: absolute;  
+    letter-spacing: 0.1cm;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: crimson;
+    font-size: 0.5cm;
+    margin-left: 70%;
+    margin-right: 10%;
+    max-width: 20%;
+}
+#imagen1 {
+    margin-left: 10%;
+    max-width: 20%;
+    margin-top: 1.5cm;
+    cursor: pointer;    
+}
+#imagen2 {
+  margin-left: 10%;
+  max-width: 20%;
+  margin-top: 1.5cm;
+  cursor: pointer;
+}
+#imagen3 {
+  margin-left: 10%;
+  margin-right: 10%;
+  max-width: 20%;
+  margin-top: 1.5cm;
+  cursor: pointer;
+}
+.imagenes {
+  height: 4.8cm;
+  width: 8cm;
+}
+#poo_button {
+  color:lawngreen;
+  background-color:black;
+  font-size: 25px;
+  margin-top: 0.5cm;
+  margin-left: 30%;
+  margin-right: 30%;
+  max-width: 40%;
+}
+.titulosEjercicios {  
+  letter-spacing: 0.1cm;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  font-size: 0.5cm;
+  text-align: center;
+}
+.titulo_codigo {
+  text-align: center;
+}

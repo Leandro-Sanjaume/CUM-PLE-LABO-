@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="diseño.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>pagina de Agus Margareto</title>
+</head>
+<body>
+  <header>
+    <div class="header">
+        <h2>Repositorios de Agustin Margareto 5°c</h2>
+        <b><p>Taller de Tecnologias de Soporte Informatico</p></b>
+      </div>
+  </header>
+<summary><button id="bdd">Base de Datos</button>
+<i id="aaaa" onclick="myFunction(this)" class="fa fa-search-plus"></i>
+<p id="info1">This is a paragraph.</p>
+
+<script>
+
+  $(document).ready(function(){
+    $("button").click(function(){
+      $(aaaa).toggle();
+      $(info1).toggle();
+    });
+  });
+
+  $(document).ready(function(){
+    $(aaaa).click(function(){
+      $(info1).toggle();
+    });
+  });
+
+    function myFunction(x) {
+  x.classList.toggle("fa-search-minus");
+}
+
+  </script>
+</body>
+</html>
